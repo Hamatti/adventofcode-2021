@@ -9,6 +9,7 @@ This year I'm planning to use Python with Jupyter Notebook.
 ## Results
 
 - [Day 1](/src/day_1.ipynb): ⭐️⭐️
+- [Day 2](/src/day_2.ipynb): ⭐️⭐️
 
 ## Jupyter Notebook
 
