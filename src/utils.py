@@ -13,3 +13,12 @@ def read_input(day, transformer=str):
     except FileNotFoundError as e:
         print(e)
            
+def read_bingo_input():
+    try:
+        with open(os.path.join('..', 'inputs', 'day_4.txt')) as input_file:
+            data = input_file.read().split('\n\n')
+            numbers, boards = data[0], data[1:]
+            return numbers, boards
+    except FileNotFoundError as e:
+        print(e)
+               
