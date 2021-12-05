@@ -1,7 +1,4 @@
 import os
-from collections import namedtuple
-
-Line = namedtuple('Line', ['x1', 'y1', 'x2', 'y2'])
 
 
 def read_input(day, transformer=str):
