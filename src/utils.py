@@ -1,4 +1,8 @@
 import os
+from collections import namedtuple
+
+Line = namedtuple('Line', ['x1', 'y1', 'x2', 'y2'])
+
 
 def read_input(day, transformer=str):
     """
@@ -22,4 +26,3 @@ def read_bingo_input():
             return numbers, boards
     except FileNotFoundError as e:
         print(e)
-               
