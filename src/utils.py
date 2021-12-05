@@ -1,5 +1,6 @@
 import os
 
+
 def read_input(day, transformer=str):
     """
     Given a day number (1-25), reads the corresponding input file into
@@ -22,4 +23,3 @@ def read_bingo_input():
             return numbers, boards
     except FileNotFoundError as e:
         print(e)
-               
