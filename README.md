@@ -18,6 +18,7 @@ This year I'm planning to use Python with Jupyter Notebook.
 - [Day 8](/src/day_8.ipynb): ⭐️⭐️ (new personal record at 16 stars!! 🎉)
 - [Day 9](/src/day_9.ipynb): ⭐️⭐️
 - [Day 10](/src/day_10.ipynb): ⭐️⭐️
+- [Day 11](/src/day_11.ipynb): ⭐️⭐️
 
 ## Jupyter Notebook
 
