@@ -23,3 +23,24 @@ def read_bingo_input():
             return numbers, boards
     except FileNotFoundError as e:
         print(e)
+        
+def read_day_13():
+    try:
+        with open(os.path.join('..', 'inputs', 'day_13.txt')) as input_file:
+            coordinates_input, instructions = input_file.read().split('\n\n')
+            coordinates_input = coordinates_input.split('\n')
+            
+            coordinates = []
+            for coordinate in coordinates_input:
+                x, y = coordinate.split(',')
+                coordinates.append((int(x), int(y)))
+            folds = []
+            for instruction in instructions.split('\n'):
+                _, location = instruction.split('fold along ')
+                plane, value = location.split('=')
+                value = int(value)
+                folds.append((plane, value))
+                
+            return coordinates, folds
+    except FileNotFoundError as e:
+        print(e)
