@@ -20,6 +20,7 @@ This year I'm planning to use Python with Jupyter Notebook.
 - [Day 10](/src/day_10.ipynb): ⭐️⭐️
 - [Day 11](/src/day_11.ipynb): ⭐️⭐️
 - [Day 12](/src/day_12.ipynb): ⭐️⭐️
+- [Day 13](/src/day_13.ipynb): ⭐️⭐️
 
 ## Jupyter Notebook
 
