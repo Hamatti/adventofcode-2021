@@ -44,3 +44,15 @@ def read_day_13():
             return coordinates, folds
     except FileNotFoundError as e:
         print(e)
+        
+def read_day_14():
+    try:
+        with open(os.path.join('..', 'inputs', 'day_14.txt')) as input_file:
+            template, pairings = input_file.read().split('\n\n')
+            pairs = {}
+            for pairing in pairings.split('\n'):
+                start, insertion = pairing.split(' -> ')
+                pairs[start] = insertion
+            return template, pairs            
+    except FileNotFoundError as e:
+        print(e)
