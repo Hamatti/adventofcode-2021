@@ -24,6 +24,7 @@ This year I'm planning to use Python with Jupyter Notebook.
 - [Day 14](/src/day_14.ipynb): ⭐️⭐️
 - [Day 15](/src/day_15.ipynb): ⭐️⭐️
 - [Day 16](/src/day_16.ipynb): ⭐️⭐️
+- [Day 17](/src/day_17.ipynb): ⭐️⭐️
 
 ## Jupyter Notebook
 
