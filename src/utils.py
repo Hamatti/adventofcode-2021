@@ -33,8 +33,11 @@ def read_multisection_input(day, transformers, example=False):
         with open(os.path.join('..', 'inputs', filename)) as input_file:
             output = []
             sections = input_file.read().split('\n\n')
-            for idx, section in enumerate(sections):
-                output.append(transformers[idx](section))
+            if transformers:
+                for idx, section in enumerate(sections):
+                    output.append(transformers[idx](section))
+            else:
+                output = sections
             return output
     except FileNotFoundError as e:
         print(e)
